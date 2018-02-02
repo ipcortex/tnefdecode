@@ -6,10 +6,14 @@
 	</head>
 	<body>
 		<div class="main">
-			<form action="/upload" method="post" enctype="multipart/form-data">
-				<input type="file" name="file" accept=".dat" />
-				<button type="submit">Go!</button>
-			</form>
+			<h1>winmail.dat debuggerer</h1>
+			<main class="main-inner">
+				<p>Got a winmail.dat and need the attachments? Upload it here and recieve a ZIP file that you can open!</p>
+				<form action="/upload" method="post" enctype="multipart/form-data">
+					<input type="file" name="file" accept=".dat" />
+					<button type="submit">Go!</button>
+				</form>
+			</main>
 		</div>
 	</body>
 </html>
